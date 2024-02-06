@@ -1,0 +1,1 @@
+<button type="button" class="happyforms-text-button happyforms-save-session<?php if ( happyforms_is_preview_context() ): ?> disabled<?php endif; ?>" data-happyforms-form-id="<?php echo $form['ID']; ?>"><?php echo happyforms_get_form_property( $form, 'abandoned_resume_save_button_label' ); ?></button>
